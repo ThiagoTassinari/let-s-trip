@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,13 +30,13 @@
 <body>
     <!-- section header -->
     <section class="header">
-        <a href="home.html" class="logo">Let's Trip.</a>
+        <a href="home.php" class="logo">Let's Trip.</a>
 
         <nav class="navbar">
-            <a href="home.html">Início</a>
-            <a href="about.html">Sobre</a>
-            <a href="package.html">Pacotes</a>
-            <a href="book.html">Livro</a>
+            <a href="home.php">Início</a>
+            <a href="about.php">Sobre</a>
+            <a href="package.php">Pacotes</a>
+            <a href="book.php">Livro</a>
         </nav>
 
         <div id="menu-btn" class="fas fa-bars"></div>
@@ -73,7 +77,7 @@
             </div>
         </div>
 
-        <div class="credit">Criado por <span>Sr. Thiago Tassinari</span> |  Todos os direitos reservados</div>
+        <div class="credit">Criado por <span>Sr. Thiago Tassinari</span> | Todos os direitos reservados</div>
     </section>
 
     <!-- Swipper js link -->

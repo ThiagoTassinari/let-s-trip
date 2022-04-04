@@ -1,5 +1,9 @@
+<?php 
+
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="]en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +11,7 @@
     <meta name="email" content="devtassinari@gmail.com">
     <meta name="description" content="Site de pacote de viagens">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about</title>
+    <title>package</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -26,20 +30,20 @@
 <body>
     <!-- section header -->
     <section class="header">
-        <a href="home.html" class="logo">Let's Trip.</a>
+        <a href="home.php" class="logo">Let's Trip.</a>
 
         <nav class="navbar">
-            <a href="home.html">Início</a>
-            <a href="about.html">Sobre</a>
-            <a href="package.html">Pacotes</a>
-            <a href="book.html">Livro</a>
+            <a href="home.php">Início</a>
+            <a href="about.php">Sobre</a>
+            <a href="package.php">Pacotes</a>
+            <a href="book.php">Livro</a>
         </nav>
 
         <div id="menu-btn" class="fas fa-bars"></div>
     </section>
 
-    <div class="heading" style="background:url(../images/header-bg-1.png) no-repeat">
-        <h1>Sobre nós</h1>
+    <div class="heading" style="background:url(../images/header-bg-2.png) no-repeat">
+        <h1>Pacotes</h1>
     </div>
 
     <section class="footer">
