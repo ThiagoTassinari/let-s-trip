@@ -1,0 +1,100 @@
+.home {
+    padding: 0;
+}
+
+.home .slide {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    min-height: 60rem;
+}
+
+.home .slide:nth-child(1) {
+    background: url("../images/home-slide-1.jpg");
+}
+
+.home .slide:nth-child(2) {
+    background: url("../images/home-slide-2.jpg");
+}
+
+.home .slide:nth-child(3) {
+    background: url("../images/home-slide-3.jpg");
+}
+
+.home .slide .content {
+    width: 85rem;
+    display: none;
+}
+
+.home .swiper-slide-active .content {
+    display: inline-block;
+}
+
+.home .slide .content span {
+    display: block;
+    font-size: 2.2rem;
+    color: var(--light-white);
+    padding-bottom: 1rem;
+    animation: fadeIn .2s linear backwards .2s;
+}
+
+.home .slide .content h3 {
+    font-size: 5vw;
+    color: var(--white);
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: var(--text-shadow);
+    padding: 1rem 0;
+    font-family: 'Times New Roman', Times, serif;
+    animation: fadeIn .2s linear backwards .4s;
+}
+
+.home .slide .content .btn {
+    animation: fadeIn .2s linear backwards .4s;
+}
+
+.home .swiper-button-next,
+.home .swiper-button-prev {
+    background-color: var(--white);
+    color: var(--black);
+    top: inherit;
+    left: inherit;
+    bottom: 0;
+    right: 0;
+    height: 6rem;
+    width: 6rem;
+}
+
+.home .swiper-button-next:hover,
+.home .swiper-button-prev:hover {
+    background: var(--main-color);
+    color: var(--white);
+}
+
+.home .swiper-button-next::after,
+.home .swiper-button-prev::after {
+    font-size: 2rem;
+}
+
+.home .swiper-button-prev {
+    right: 6rem;
+}
+
+.btn {
+    background-color: var(--black);
+    color: var(--white);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+}
+
+.btn:hover {
+    background: var(--main-color);
+}

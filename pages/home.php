@@ -16,12 +16,14 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
-    <!-- Swipper css link -->
+    <!-- swiper css link -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
     <!-- Custom css file link -->
+    <link rel="stylesheet" href="../css/animations.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/services.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/responsive.css">
@@ -40,6 +42,43 @@
         </nav>
 
         <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+    <!-- Section Home -->
+    <section class="home">
+
+        <div class="swiper home-slider ">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Explore, descubra, viagem</span>
+                        <h3>Viagem ao redor do mundo</h3>
+                        <a href="package.php" class="btn">Descubra mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Explore, descubra, viagem</span>
+                        <h3>Viagem ao redor do mundo</h3>
+                        <a href="package.php" class="btn">Descubra mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Explore, descubra, viagem</span>
+                        <h3>Faça seu passeio valer a pena</h3>
+                        <a href="package.php" class="btn">Descubra mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
     </section>
 
     <!-- Section Services -->
@@ -119,7 +158,7 @@
         <div class="credit">Criado por <span>Sr. Thiago Tassinari</span> | Todos os direitos reservados</div>
     </section>
 
-    <!-- Swipper js link -->
+    <!-- swiper js link -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- custom js link -->
