@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/services.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/responsive.css">
 </head>
@@ -42,6 +43,45 @@
         <div id="menu-btn" class="fas fa-bars"></div>
     </section>
 
+    <!-- Section Services -->
+    <section class="services">
+        <h1 class="heading-title">Nossos serviços</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="../images/icon-1.png" alt="">
+                <h3>Aventuras</h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/icon-2.png" alt="">
+                <h3>Guia Turístico</h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/icon-3.png" alt="">
+                <h3>Trilhas</h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/icon-4.png" alt="">
+                <h3>Fogueira</h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/icon-5.png" alt="">
+                <h3>Off road</h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/icon-6.png" alt="">
+                <h3>Acampamento</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Footer -->
     <section class="footer">
         <div class="box-container">
             <div class="box">
