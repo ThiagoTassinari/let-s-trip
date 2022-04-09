@@ -12,6 +12,10 @@
     section {
         padding: 3rem 2rem;
     }
+
+    .home .slide .content h3 {
+        font-size: 5vw;
+    }
 }
 
 @media (max-width: 768px) {
@@ -44,6 +48,10 @@
 
     #menu-btn.fa-times {
         transform: rotate(180deg);
+    }
+
+    .home .slide .content h3 {
+        font-size: 5vw;
     }
 }
 
