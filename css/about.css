@@ -55,3 +55,13 @@
   color: var(--light-black);
   display: block;
 }
+
+.bg-container {
+  display: inline-block;
+  position: relative;
+}
+
+.bg-image img {
+  width: 100%;
+  height: min(1920px, 600px);
+}
