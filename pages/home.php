@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/services.css">
+    <link rel="stylesheet" href="../css/home-about.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/responsive.css">
 </head>
@@ -116,6 +117,20 @@
                 <img src="../images/icon-6.png" alt="">
                 <h3>Acampamento</h3>
             </div>
+        </div>
+    </section>
+
+    <!-- Section Home-About -->
+    <section class="home-about">
+
+        <div class="image">
+            <img src="../images/about-img.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita et, recusandae nobis fugit modi quibusdam ea assumenda, nulla quisquam repellat rem aliquid sequi maxime sapiente autem ipsum? Nobis, provident voluptate?</p>
+            <a href="about.php" class="btn">read more</a>
         </div>
     </section>
 
