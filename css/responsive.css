@@ -53,6 +53,10 @@
     .home .slide .content h3 {
         font-size: 5vw;
     }
+
+    .review-title {
+        font-size: 3.5rem;
+    }
 }
 
 @media (max-width: 450px) {
@@ -62,5 +66,6 @@
 
     .heading-title {
         font-size: 3.5rem;
+        padding-top: 0.5rem;
     }
 }
