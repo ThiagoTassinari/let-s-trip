@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 ?>
 
@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
     <!-- Custom css file link -->
+    <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
@@ -41,10 +42,35 @@
         <div id="menu-btn" class="fas fa-bars"></div>
     </section>
 
-    <div class="heading" style="background:url(../images/header-bg-1.png) no-repeat">
-        <h1>Sobre nós</h1>
-    </div>
+    <!-- Section About -->
+    <section class="about">
 
+        <div class="image">
+            <img src="../images/about-img.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>why choose us?</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure numquam nulla iusto corporis dolor commodi libero, vitae obcaecati optio rerum ab culpa nesciunt, earum mollitia quasi ipsam non. Aliquid, iure.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum, delectus voluptate aliquam quaerat iusto repellendus error nulla ab atque.</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-map"></i>
+                    <span>top destinations</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <span>affordable price</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 guide service</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Footer -->
     <section class="footer">
         <div class="box-container">
             <div class="box">
@@ -80,7 +106,7 @@
             </div>
         </div>
 
-        <div class="credit">Criado por <span>Sr. Thiago Tassinari</span> |  Todos os direitos reservados</div>
+        <div class="credit">Criado por <span>Sr. Thiago Tassinari</span> | Todos os direitos reservados</div>
     </section>
 
     <!-- Swipper js link -->
