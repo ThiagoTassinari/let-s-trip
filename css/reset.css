@@ -41,4 +41,5 @@ html::-webkit-scrollbar-thumb {
 
 a, .btn {
     text-decoration: none;
+    border-radius: .625rem;
 }
