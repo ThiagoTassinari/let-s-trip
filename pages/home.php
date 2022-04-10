@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="../css/services.css">
     <link rel="stylesheet" href="../css/home-about.css">
     <link rel="stylesheet" href="../css/home-packages.css">
+    <link rel="stylesheet" href="../css/home-offer.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/responsive.css">
 </head>
@@ -180,6 +181,16 @@
         <div class="load-more"> <a href="package.php" class="btn">Veja Mais pacotes</a> </div>
 
     </section>
+
+    <!-- Section Home-Offer -->
+    <section class="home-offer">
+        <div class="content">
+            <h3>upto 50% off</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure tempora assumenda, debitis aliquid nesciunt maiores quas! Magni cumque quaerat saepe!</p>
+            <a href="book.php" class="btn">book now</a>
+        </div>
+    </section>
+
 
     <!-- Section Footer -->
     <section class="footer">
