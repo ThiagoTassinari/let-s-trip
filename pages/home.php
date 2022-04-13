@@ -1,9 +1,5 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -34,202 +30,26 @@
 
 <body>
     <!-- section header -->
-    <section class="header">
-        <a href="home.php" class="logo">Let's Trip.</a>
-
-        <nav class="navbar">
-            <a href="home.php">Início</a>
-            <a href="about.php">Sobre</a>
-            <a href="package.php">Pacotes</a>
-            <a href="book.php">Livro</a>
-        </nav>
-
-        <div id="menu-btn" class="fas fa-bars"></div>
-    </section>
+    <?php include "../src/templates/base/header.html" ?>
 
     <!-- Section Home -->
-    <section class="home">
-
-        <div class="swiper home-slider ">
-
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>Explore, descubra, viagem</span>
-                        <h3>Viagem ao redor do mundo</h3>
-                        <a href="package.php" class="btn">Descubra mais</a>
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>Explore, descubra, viagem</span>
-                        <h3>Viagem ao redor do mundo</h3>
-                        <a href="package.php" class="btn">Descubra mais</a>
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>Explore, descubra, viagem</span>
-                        <h3>Faça seu passeio valer a pena</h3>
-                        <a href="package.php" class="btn">Descubra mais</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
-    </section>
+    <?php include "../src/templates/home/home.html" ?>
 
     <!-- Section Services -->
-    <section class="services">
-        <h1 class="heading-title">Nossos serviços</h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <img src="../images/icon-1.png" alt="">
-                <h3>Aventuras</h3>
-            </div>
-
-            <div class="box">
-                <img src="../images/icon-2.png" alt="">
-                <h3>Guia Turístico</h3>
-            </div>
-
-            <div class="box">
-                <img src="../images/icon-3.png" alt="">
-                <h3>Trilhas</h3>
-            </div>
-
-            <div class="box">
-                <img src="../images/icon-4.png" alt="">
-                <h3>Fogueira</h3>
-            </div>
-
-            <div class="box">
-                <img src="../images/icon-5.png" alt="">
-                <h3>Off road</h3>
-            </div>
-
-            <div class="box">
-                <img src="../images/icon-6.png" alt="">
-                <h3>Acampamento</h3>
-            </div>
-        </div>
-    </section>
+    <?php include "../src/templates/home/services.html" ?>
 
     <!-- Section Home-About -->
-    <section class="home-about">
+    <?php include "../src/templates/home/home-about.html" ?>
 
-        <div class="image">
-            <img src="../images/about-img.jpg" alt="">
-        </div>
 
-        <div class="content">
-            <h3>about us</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita et, recusandae nobis fugit modi quibusdam ea assumenda, nulla quisquam repellat rem aliquid sequi maxime sapiente autem ipsum? Nobis, provident voluptate?</p>
-            <a href="about.php" class="btn">read more</a>
-        </div>
-    </section>
-
-    <!-- Sectio Home-Packages -->
-    <section class="home-packages">
-
-        <h1 class="heading-title">Nossos Pacotes</h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <div class="image">
-                    <img src="../images/img-1.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>Aventuras e Passeios</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
-                    <a href="book.php" class="btn">Reserve agora</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="../images/img-2.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>Aventuras e Passeios</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
-                    <a href="book.php" class="btn">Reserve agora</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="../images/img-3.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>Aventuras e Passeios</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
-                    <a href="book.php" class="btn">Reserve agora</a>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="load-more"> <a href="package.php" class="btn">Veja Mais pacotes</a> </div>
-
-    </section>
+    <!-- Section Home-Packages -->
+    <?php include "../src/templates/home/home-packages.html" ?>
 
     <!-- Section Home-Offer -->
-    <section class="home-offer">
-        <div class="content">
-            <h3>upto 50% off</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure tempora assumenda, debitis aliquid nesciunt maiores quas! Magni cumque quaerat saepe!</p>
-            <a href="book.php" class="btn">book now</a>
-        </div>
-    </section>
-
+    <?php include "../src/templates/home/home-offer.html" ?>
 
     <!-- Section Footer -->
-    <section class="footer">
-        <div class="box-container">
-            <div class="box">
-                <h3>Links de atalho</h3>
-                <a href="home.html"> <i class="fas fa-angle-right"></i> Início</a>
-                <a href="about.html"> <i class="fas fa-angle-right"></i> Sobre</a>
-                <a href="package.html"> <i class="fas fa-angle-right"></i> Pacotes</a>
-                <a href="book.html"> <i class="fas fa-angle-right"></i> Livro</a>
-            </div>
-
-            <div class="box">
-                <h3>Links extras</h3>
-                <a href="#"> <i class="fas fa-angle-right"></i> Faça perguntas</a>
-                <a href="#"> <i class="fas fa-angle-right"></i> Sobre nós</a>
-                <a href="#"> <i class="fas fa-angle-right"></i> Política de privacidade</a>
-                <a href="#"> <i class="fas fa-angle-right"></i> Termos de uso</a>
-            </div>
-
-            <div class="box">
-                <h3>Informações para contato</h3>
-                <a href="#"> <i class="fas fa-phone"></i> +55(98)98416-3635</a>
-                <a href="#"> <i class="fas fa-envelope"></i> devtassinari@gmail.com</a>
-                <a href="#"> <i class="fas fa-envelope"></i> thiagotassinari12@gmail.com</a>
-                <a href="#"> <i class="fas fa-map"></i> São Luís, Brasil - 65070-290</a>
-            </div>
-
-            <div class="box">
-                <h3>Siga-nos</h3>
-                <a href="#"> <i class="fas fa-facebook-f"></i> Facebook</a>
-                <a href="#"> <i class="fas fa-twitter"></i> Twitter</a>
-                <a href="#"> <i class="fas fa-instagram"></i> Instagram</a>
-                <a href="#"> <i class="fas fa-linkedin"></i> LinkedIn</a>
-            </div>
-        </div>
-
-        <div class="credit">Criado por <span>Sr. Thiago Tassinari</span> | Todos os direitos reservados</div>
-    </section>
+    <?php include "../src/templates/base/footer.html" ?>
 
     <!-- swiper js link -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>

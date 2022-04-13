@@ -3,7 +3,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="]en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -29,204 +29,13 @@
 
 <body>
     <!-- section header -->
-    <section class="header">
-        <a href="home.php" class="logo">Let's Trip.</a>
+    <?php include "../src/templates/base/header.html" ?>
 
-        <nav class="navbar">
-            <a href="home.php">Início</a>
-            <a href="about.php">Sobre</a>
-            <a href="package.php">Pacotes</a>
-            <a href="book.php">Livro</a>
-        </nav>
-
-        <div id="menu-btn" class="fas fa-bars"></div>
-    </section>
-
-    <!-- <div class="heading" style="background:url(../images/header-bg-2.png) no-repeat">
-        <h1>Pacotes</h1>
-    </div> -->
-
-    <section class="packages">
-
-        <h1 class="heading-title">top destinations</h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <div class="image">
-                    <img src="../images/img-1.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                    <a href="book.php" class="btn">book now</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="../images/img-2.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                    <a href="book.php" class="btn">book now</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="../images/img-3.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                    <a href="book.php" class="btn">book now</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="../images/img-4.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                    <a href="book.php" class="btn">book now</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="../images/img-5.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                    <a href="book.php" class="btn">book now</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="../images/img-6.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                    <a href="book.php" class="btn">book now</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="../images/img-7.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                    <a href="book.php" class="btn">book now</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="../images/img-8.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                    <a href="book.php" class="btn">book now</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="../images/img-9.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                    <a href="book.php" class="btn">book now</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="../images/img-10.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                    <a href="book.php" class="btn">book now</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="../images/img-11.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                    <a href="book.php" class="btn">book now</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="../images/img-12.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                    <a href="book.php" class="btn">book now</a>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="load-more"><span class="btn">Veja mais</span></div>
-
-    </section>
-
-    <section class="footer">
-        <div class="box-container">
-            <div class="box">
-                <h3>Links de atalho</h3>
-                <a href="home.html"> <i class="fas fa-angle-right"></i> Início</a>
-                <a href="about.html"> <i class="fas fa-angle-right"></i> Sobre</a>
-                <a href="package.html"> <i class="fas fa-angle-right"></i> Pacotes</a>
-                <a href="book.html"> <i class="fas fa-angle-right"></i> Livro</a>
-            </div>
-
-            <div class="box">
-                <h3>Links extras</h3>
-                <a href="#"> <i class="fas fa-angle-right"></i> Faça perguntas</a>
-                <a href="#"> <i class="fas fa-angle-right"></i> Sobre nós</a>
-                <a href="#"> <i class="fas fa-angle-right"></i> Política de privacidade</a>
-                <a href="#"> <i class="fas fa-angle-right"></i> Termos de uso</a>
-            </div>
-
-            <div class="box">
-                <h3>Informações para contato</h3>
-                <a href="#"> <i class="fas fa-phone"></i> +55(98)98416-3635</a>
-                <a href="#"> <i class="fas fa-envelope"></i> devtassinari@gmail.com</a>
-                <a href="#"> <i class="fas fa-envelope"></i> thiagotassinari12@gmail.com</a>
-                <a href="#"> <i class="fas fa-map"></i> São Luís, Brasil - 65070-290</a>
-            </div>
-
-            <div class="box">
-                <h3>Siga-nos</h3>
-                <a href="#"> <i class="fas fa-facebook-f"></i> Facebook</a>
-                <a href="#"> <i class="fas fa-twitter"></i> Twitter</a>
-                <a href="#"> <i class="fas fa-instagram"></i> Instagram</a>
-                <a href="#"> <i class="fas fa-linkedin"></i> LinkedIn</a>
-            </div>
-        </div>
-
-        <div class="credit">Criado por <span>Sr. Thiago Tassinari</span> | Todos os direitos reservados</div>
-    </section>
+    <!-- Section Packages  -->
+    <?php include "../src/templates/package/packages.html" ?>
+    
+    <!-- Section Footer -->
+    <?php include "../src/templates/base/footer.html" ?>
 
     <!-- Swipper js link -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>

@@ -30,183 +30,21 @@
 
 <body>
     <!-- section header -->
-    <section class="header">
-        <a href="home.php" class="logo">Let's Trip.</a>
-
-        <nav class="navbar">
-            <a href="home.php">Início</a>
-            <a href="about.php">Sobre</a>
-            <a href="package.php">Pacotes</a>
-            <a href="book.php">Livro</a>
-        </nav>
-
-        <div id="menu-btn" class="fas fa-bars"></div>
-    </section>
+    <?php include "../src/templates/base/header.html" ?>
 
     <div class="heading bg-image">
-    <!-- <h1>Sobre Nós</h1> -->
+        <!-- <h1>Sobre Nós</h1> -->
         <img src="../images/bg-about.jpg" alt="">
     </div>
 
     <!-- Section About -->
-    <section class="about">
-
-        <div class="image">
-            <img src="../images/about-img.jpg" alt="">
-        </div>
-
-        <div class="content">
-            <h3>why choose us?</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure numquam nulla iusto corporis dolor commodi libero, vitae obcaecati optio rerum ab culpa nesciunt, earum mollitia quasi ipsam non. Aliquid, iure.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum, delectus voluptate aliquam quaerat iusto repellendus error nulla ab atque.</p>
-            <div class="icons-container">
-                <div class="icons">
-                    <i class="fas fa-map"></i>
-                    <span>top destinations</span>
-                </div>
-                <div class="icons">
-                    <i class="fas fa-hand-holding-usd"></i>
-                    <span>affordable price</span>
-                </div>
-                <div class="icons">
-                    <i class="fas fa-headset"></i>
-                    <span>24/7 guide service</span>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include "../src/templates/about/about.html" ?>
 
     <!-- Section review -->
-    <section class="reviews">
-
-        <h1 class="heading-title review-title">Avaliações</h1>
-
-        <div class="swiper reviews-slider">
-
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide slide">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis laudantium magnam saepe magni ullam possimus laborum voluptas, veniam ipsum officiis quae doloribus minima ut quis. Molestiae qui distinctio possimus?</p>
-                    <h3>john deo</h3>
-                    <span>traveler</span>
-                    <img src="../images/pic-1.png" alt="">
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus repellendus et suscipit optio similique totam aut laborum ullam sequi! In!</p>
-                    <h3>john deo</h3>
-                    <span>traveler</span>
-                    <img src="../images/pic-2.png" alt="">
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dolores tempore obcaecati, dolore esse aperiam. Excepturi ad quo distinctio, dignissimos voluptate, dolores, saepe animi eum atque sint esse ab exercitationem!</p>
-                    <h3>john deo</h3>
-                    <span>traveler</span>
-                    <img src="../images/pic-3.png" alt="">
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus recusandae cum quibusdam odio dignissimos nemo?</p>
-                    <h3>john deo</h3>
-                    <span>traveler</span>
-                    <img src="../images/pic-4.png" alt="">
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis laudantium magnam saepe magni ullam possimus laborum voluptas, veniam ipsum officiis quae doloribus minima ut quis. Molestiae qui distinctio possimus?</p>
-                    <h3>john deo</h3>
-                    <span>traveler</span>
-                    <img src="../images/pic-5.png" alt="">
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis laudantium magnam saepe magni ullam possimus laborum voluptas, veniam ipsum officiis quae doloribus minima ut quis. Molestiae qui distinctio possimus?</p>
-                    <h3>john deo</h3>
-                    <span>traveler</span>
-                    <img src="../images/pic-6.png" alt="">
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
+    <?php include "../src/templates/about/review.html" ?>
 
     <!-- Section Footer -->
-    <section class="footer">
-        <div class="box-container">
-            <div class="box">
-                <h3>Links de atalho</h3>
-                <a href="home.html"> <i class="fas fa-angle-right"></i> Início</a>
-                <a href="about.html"> <i class="fas fa-angle-right"></i> Sobre</a>
-                <a href="package.html"> <i class="fas fa-angle-right"></i> Pacotes</a>
-                <a href="book.html"> <i class="fas fa-angle-right"></i> Livro</a>
-            </div>
-
-            <div class="box">
-                <h3>Links extras</h3>
-                <a href="#"> <i class="fas fa-angle-right"></i> Faça perguntas</a>
-                <a href="#"> <i class="fas fa-angle-right"></i> Sobre nós</a>
-                <a href="#"> <i class="fas fa-angle-right"></i> Política de privacidade</a>
-                <a href="#"> <i class="fas fa-angle-right"></i> Termos de uso</a>
-            </div>
-
-            <div class="box">
-                <h3>Informações para contato</h3>
-                <a href="#"> <i class="fas fa-phone"></i> +55(98)98416-3635</a>
-                <a href="#"> <i class="fas fa-envelope"></i> devtassinari@gmail.com</a>
-                <a href="#"> <i class="fas fa-envelope"></i> thiagotassinari12@gmail.com</a>
-                <a href="#"> <i class="fas fa-map"></i> São Luís, Brasil - 65070-290</a>
-            </div>
-
-            <div class="box">
-                <h3>Siga-nos</h3>
-                <a href="#"> <i class="fas fa-facebook-f"></i> Facebook</a>
-                <a href="#"> <i class="fas fa-twitter"></i> Twitter</a>
-                <a href="#"> <i class="fas fa-instagram"></i> Instagram</a>
-                <a href="#"> <i class="fas fa-linkedin"></i> LinkedIn</a>
-            </div>
-        </div>
-
-        <div class="credit">Criado por <span>Sr. Thiago Tassinari</span> | Todos os direitos reservados</div>
-    </section>
+    <?php include "../src/templates/base/footer.html" ?>
 
     <!-- Swipper js link -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
