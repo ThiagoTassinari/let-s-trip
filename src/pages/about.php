@@ -20,37 +20,37 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
     <!-- Custom css file link -->
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="../css/review.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/about.css">
+    <link rel="stylesheet" href="../assets/css/review.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
 </head>
 
 <body>
     <!-- section header -->
-    <?php include "../src/templates/base/header.html" ?>
+    <?php include "../../src/templates/base/header.html" ?>
 
     <div class="heading bg-image">
         <!-- <h1>Sobre Nós</h1> -->
-        <img src="../images/bg-about.jpg" alt="">
+        <img src="../../public/images/bg-about.jpg" alt="">
     </div>
 
     <!-- Section About -->
-    <?php include "../src/templates/about/about.html" ?>
+    <?php include "../../src/templates/about/about.html" ?>
 
     <!-- Section review -->
-    <?php include "../src/templates/about/review.html" ?>
+    <?php include "../../src/templates/about/review.html" ?>
 
     <!-- Section Footer -->
-    <?php include "../src/templates/base/footer.html" ?>
+    <?php include "../../src/templates/base/footer.html" ?>
 
     <!-- Swipper js link -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- custom js link -->
-    <script src="../js/script.js"></script>
+    <script src="../../public/scripts/app.js"></script>
 </body>
 
 </html>

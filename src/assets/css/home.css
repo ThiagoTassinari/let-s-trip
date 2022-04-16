@@ -15,15 +15,15 @@
 }
 
 .home .slide:nth-child(1) {
-    background: url("../images/home-slide-1.jpg");
+    background: url("../../../public/images/home-slide-1.jpg");
 }
 
 .home .slide:nth-child(2) {
-    background: url("../images/home-slide-2.jpg");
+    background: url("../../../public/images/home-slide-2.jpg");
 }
 
 .home .slide:nth-child(3) {
-    background: url("../images/home-slide-3.jpg");
+    background: url("../../../public/images/home-slide-3.jpg");
 }
 
 .home .slide .content {
